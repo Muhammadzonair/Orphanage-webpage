@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Together Home for Children</title>
+	<meta name="description" content="Welcome to Together Home for Children – providing love, care, and education for every child." />
+	<link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link href="styles.css" rel="stylesheet" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="80" tabindex="0">
+	<!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-white fixed-top transition-shadow">
+		<div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#home">
+                <img src="assets/logo.svg" alt="Together Home for Children" class="brand-logo" width="32" height="32" />
+                <span class="fw-bold text-primary">Together Home for Children</span>
+            </a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="mainNavbar">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#mission">About / Mission</a></li>
+					<li class="nav-item"><a class="nav-link" href="#activities">Activities</a></li>
+					<li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+					<li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+					<li class="nav-item"><a class="nav-link btn btn-primary text-white ms-lg-2 mt-2 mt-lg-0 px-3 py-1" href="#help">How to Help</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Hero Section -->
+	<header id="home" class="hero-section d-flex align-items-center">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-12 col-lg-10 text-center text-white">
+                    <h1 class="display-4 fw-bold">Welcome to Together Home for Children</h1>
+					<p class="lead mt-3 mb-4">A loving community where every child discovers hope, education, and a brighter future.</p>
+                    <div class="d-flex flex-wrap gap-3 justify-content-center">
+                        <button class="btn btn-warning btn-lg shadow-sm" data-bs-toggle="modal" data-bs-target="#donateModal">Donate Now</button>
+						<a href="#mission" class="btn btn-outline-light btn-lg">Learn More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="hero-overlay"></div>
+	</header>
+    <div class="section-wave">
+        <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg"><path fill="#f8f9fa" d="M0,64L48,80C96,96,192,128,288,122.7C384,117,480,75,576,58.7C672,43,768,53,864,64C960,75,1056,85,1152,85.3C1248,85,1344,75,1392,69.3L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    </div>
+
+	<!-- Mission / Vision Section -->
+	<section id="mission" class="py-5 bg-light">
+		<div class="container">
+			<div class="row mb-4">
+				<div class="col text-center">
+					<h2 class="fw-semibold">Our Mission & Vision</h2>
+					<p class="text-muted mb-0">What guides us every day</p>
+				</div>
+			</div>
+			<div class="row g-4 align-items-stretch">
+				<div class="col-md-6">
+					<div class="p-4 h-100 bg-white rounded-3 shadow-sm">
+						<h3 class="h5 fw-bold text-primary">Our Mission</h3>
+						<p class="mb-0">To provide a safe, nurturing home that empowers children through quality education, healthcare, and emotional support—preparing them to become confident, compassionate, and self‑reliant individuals.</p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="p-4 h-100 bg-white rounded-3 shadow-sm">
+						<h3 class="h5 fw-bold text-success">Our Vision</h3>
+						<p class="mb-0">A world where every child is loved, protected, and supported to realize their full potential—creating ripple effects of kindness and opportunity in their communities.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row g-4 mt-1">
+				<div class="col-12">
+					<div class="p-4 bg-white rounded-3 shadow-sm">
+						<h3 class="h6 text-uppercase text-muted mb-3">Our Values</h3>
+						<div class="row g-3">
+							<div class="col-6 col-lg-3"><span class="badge bg-primary-subtle text-primary border border-primary-subtle me-2">01</span> Dignity & Respect</div>
+							<div class="col-6 col-lg-3"><span class="badge bg-success-subtle text-success border border-success-subtle me-2">02</span> Safety & Protection</div>
+							<div class="col-6 col-lg-3"><span class="badge bg-warning-subtle text-warning border border-warning-subtle me-2">03</span> Learning & Growth</div>
+							<div class="col-6 col-lg-3"><span class="badge bg-danger-subtle text-danger border border-danger-subtle me-2">04</span> Community & Belonging</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Statistics Section -->
+	<section id="stats" class="py-5">
+		<div class="container">
+			<div class="row mb-4">
+				<div class="col text-center">
+					<h2 class="fw-semibold">By the Numbers</h2>
+					<p class="text-muted mb-0">Highlights of our impact</p>
+				</div>
+			</div>
+			<div class="row g-4">
+				<div class="col-6 col-md-3">
+					<div class="card border-0 shadow-sm text-center p-4 h-100">
+						<div class="display-5 fw-bold text-primary" data-count="120">120</div>
+						<p class="mb-0 text-muted">Children Supported</p>
+					</div>
+				</div>
+				<div class="col-6 col-md-3">
+					<div class="card border-0 shadow-sm text-center p-4 h-100">
+						<div class="display-5 fw-bold text-success" data-count="35">35</div>
+						<p class="mb-0 text-muted">Dedicated Staff</p>
+					</div>
+				</div>
+				<div class="col-6 col-md-3">
+					<div class="card border-0 shadow-sm text-center p-4 h-100">
+						<div class="display-5 fw-bold text-warning" data-count="15">15</div>
+						<p class="mb-0 text-muted">Years Serving</p>
+					</div>
+				</div>
+				<div class="col-6 col-md-3">
+					<div class="card border-0 shadow-sm text-center p-4 h-100">
+						<div class="display-5 fw-bold text-danger" data-count="250">250+</div>
+						<p class="mb-0 text-muted">Community Volunteers</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Donation Tiers -->
+	<section id="donate" class="py-5">
+		<div class="container">
+			<div class="row mb-4">
+				<div class="col text-center">
+					<h2 class="fw-semibold">Donation Tiers</h2>
+					<p class="text-muted mb-0">Choose a level that fits you—every gift counts</p>
+				</div>
+			</div>
+			<div class="row g-4">
+				<div class="col-12 col-md-4">
+					<div class="card h-100 tier-card shadow-sm">
+						<div class="card-body p-4">
+							<h5 class="card-title mb-1">Friend</h5>
+							<p class="text-muted small">Helps cover daily essentials</p>
+							<div class="display-6 fw-bold mb-3">$25</div>
+							<ul class="list-unstyled small text-muted mb-4">
+								<li>• One week of school supplies</li>
+								<li>• Evening snacks for 5 children</li>
+							</ul>
+							<a href="#help" class="btn btn-outline-primary w-100">Give $25</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4">
+					<div class="card h-100 tier-card shadow-sm border-primary">
+						<div class="card-body p-4 position-relative">
+							<span class="badge badge-popular">Most Popular</span>
+							<h5 class="card-title mb-1">Sponsor</h5>
+							<p class="text-muted small">Supports a child’s monthly needs</p>
+							<div class="display-6 fw-bold mb-3">$50</div>
+							<ul class="list-unstyled small text-muted mb-4">
+								<li>• Healthy meals and fruits</li>
+								<li>• Tuition and study materials</li>
+							</ul>
+							<a href="#help" class="btn btn-primary w-100">Give $50</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4">
+					<div class="card h-100 tier-card shadow-sm">
+						<div class="card-body p-4">
+							<h5 class="card-title mb-1">Champion</h5>
+							<p class="text-muted small">Funds programs and workshops</p>
+							<div class="display-6 fw-bold mb-3">$100</div>
+							<ul class="list-unstyled small text-muted mb-4">
+								<li>• Weekend skill workshops</li>
+								<li>• Medical checkups and hygiene kits</li>
+							</ul>
+							<a href="#help" class="btn btn-outline-primary w-100">Give $100</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Testimonials -->
+	<section id="testimonials" class="py-5 bg-light">
+		<div class="container">
+			<div class="row mb-4">
+				<div class="col text-center">
+					<h2 class="fw-semibold">What People Say</h2>
+					<p class="text-muted mb-0">Stories from our community</p>
+				</div>
+			</div>
+			<div class="row g-4">
+				<div class="col-md-4">
+					<div class="card h-100 shadow-sm">
+						<div class="card-body">
+							<p class="mb-3">“Sunrise Home is more than a shelter; it’s family. My child’s confidence has blossomed.”</p>
+                    <div class="small text-muted">— Aisha, Guardian at Together Home for Children</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card h-100 shadow-sm">
+						<div class="card-body">
+							<p class="mb-3">“Volunteering here showed me the power of mentorship. The kids are incredible learners.”</p>
+                    <div class="small text-muted">— Daniel, Volunteer at Together Home for Children</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card h-100 shadow-sm">
+						<div class="card-body">
+							<p class="mb-3">“Our company partners with Sunrise because they deliver lasting impact with transparency.”</p>
+                    <div class="small text-muted">— Priya, Corporate Sponsor of Together Home for Children</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- FAQ -->
+	<section id="faq" class="py-5">
+		<div class="container">
+			<div class="row mb-4">
+				<div class="col text-center">
+					<h2 class="fw-semibold">Frequently Asked Questions</h2>
+					<p class="text-muted mb-0">Quick answers for visitors and supporters</p>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-12 col-lg-10">
+					<div class="accordion" id="faqAccordion">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="faq1">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1c" aria-expanded="true" aria-controls="faq1c">
+									How are donations used?
+								</button>
+							</h2>
+							<div id="faq1c" class="accordion-collapse collapse show" aria-labelledby="faq1" data-bs-parent="#faqAccordion">
+								<div class="accordion-body">We prioritize children’s essentials: nutrition, education, healthcare, and safe housing. We publish annual impact summaries for transparency.</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="faq2">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2c" aria-expanded="false" aria-controls="faq2c">
+									Can I volunteer on weekends?
+								</button>
+							</h2>
+							<div id="faq2c" class="accordion-collapse collapse" aria-labelledby="faq2" data-bs-parent="#faqAccordion">
+								<div class="accordion-body">Yes. We host weekend tutoring, sports, and arts sessions. Fill the form in the How to Help section and we’ll get back to you.</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="faq3">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3c" aria-expanded="false" aria-controls="faq3c">
+									Do you accept in‑kind donations?
+								</button>
+							</h2>
+							<div id="faq3c" class="accordion-collapse collapse" aria-labelledby="faq3" data-bs-parent="#faqAccordion">
+								<div class="accordion-body">Absolutely—clothes, books, stationery, hygiene kits, and sports equipment are welcome. Please contact us for current needs.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Activities Section -->
+	<section id="activities" class="py-5 bg-light">
+		<div class="container">
+			<div class="row mb-4">
+				<div class="col text-center">
+					<h2 class="fw-semibold">Activities & Programs</h2>
+					<p class="text-muted mb-0">Holistic growth for every child</p>
+				</div>
+			</div>
+			<div class="row g-4">
+				<div class="col-12 col-md-6 col-lg-4">
+					<div class="card h-100 shadow-sm">
+						<img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=1200&auto=format&fit=crop" class="card-img-top" alt="Education" />
+						<div class="card-body">
+							<h5 class="card-title">Education & Tutoring</h5>
+							<p class="card-text">Daily study sessions, extra classes, and mentorship to strengthen academic foundations and curiosity.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4">
+					<div class="card h-100 shadow-sm">
+						<img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1200&auto=format&fit=crop" class="card-img-top" alt="Workshops" />
+						<div class="card-body">
+							<h5 class="card-title">Workshops & Life Skills</h5>
+							<p class="card-text">Art, craft, computer literacy, and life skills that build confidence and creativity.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4">
+					<div class="card h-100 shadow-sm">
+						<img src="https://images.unsplash.com/photo-1495567720989-cebdbdd97913?q=80&w=1200&auto=format&fit=crop" class="card-img-top" alt="Sports" />
+						<div class="card-body">
+							<h5 class="card-title">Sports & Wellness</h5>
+							<p class="card-text">Regular sports, yoga, and health awareness programs to ensure a healthy body and mind.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4">
+					<div class="card h-100 shadow-sm">
+						<img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=1200&auto=format&fit=crop" class="card-img-top" alt="Health" />
+						<div class="card-body">
+							<h5 class="card-title">Health & Nutrition</h5>
+							<p class="card-text">Nutritious meals, periodic health checkups, and hygiene education for overall wellbeing.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4">
+					<div class="card h-100 shadow-sm">
+						<img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=1200&auto=format&fit=crop" class="card-img-top" alt="Community" />
+						<div class="card-body">
+							<h5 class="card-title">Community Engagement</h5>
+							<p class="card-text">Festivals, outings, and community service to nurture empathy and belonging.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4">
+					<div class="card h-100 shadow-sm">
+						<img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?q=80&w=1200&auto=format&fit=crop" class="card-img-top" alt="Mentorship" />
+						<div class="card-body">
+							<h5 class="card-title">Mentorship & Guidance</h5>
+							<p class="card-text">Personal mentoring and career guidance to help children dream and achieve big.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- How to Help Section -->
+	<section id="help" class="py-5">
+		<div class="container">
+			<div class="row mb-4">
+				<div class="col text-center">
+					<h2 class="fw-semibold">How You Can Help</h2>
+					<p class="text-muted mb-0">Every contribution makes a difference</p>
+				</div>
+			</div>
+			<div class="row g-4 align-items-stretch">
+				<div class="col-lg-6">
+                    <div class="h-100 p-4 p-lg-5 bg-light rounded-3">
+                        <div class="d-flex flex-wrap gap-2 mb-3">
+                            <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#donateModal">Donate</button>
+							<a class="btn btn-success" href="#">Volunteer</a>
+							<a class="btn btn-primary" href="#contact">Contact Us</a>
+						</div>
+						<ul class="list-unstyled mb-0 text-muted">
+							<li class="mb-2">• Sponsor a child’s education</li>
+							<li class="mb-2">• Donate clothes, books, or supplies</li>
+							<li class="mb-2">• Support health and nutrition programs</li>
+							<li class="mb-0">• Share your time and skills</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-6">
+                    <div class="card shadow-sm h-100">
+						<div class="card-body p-4 p-lg-5">
+							<h5 class="card-title">Send Us a Message</h5>
+                            <form action="#" method="post" class="mt-3" id="contactForm">
+								<div class="row g-3">
+									<div class="col-md-6">
+										<label for="name" class="form-label">Name</label>
+										<input type="text" class="form-control" id="name" placeholder="Your name" required />
+									</div>
+									<div class="col-md-6">
+										<label for="email" class="form-label">Email</label>
+										<input type="email" class="form-control" id="email" placeholder="you@example.com" required />
+									</div>
+									<div class="col-12">
+										<label for="message" class="form-label">Message</label>
+										<textarea class="form-control" id="message" rows="4" placeholder="How would you like to help?" required></textarea>
+									</div>
+									<div class="col-12">
+										<button type="submit" class="btn btn-primary">Send Message</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <!-- Donate Modal -->
+    <div class="modal fade" id="donateModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Make a Donation</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="donationForm">
+                        <div class="mb-3">
+                            <label class="form-label">Amount (USD)</label>
+                            <div class="input-group">
+                                <span class="input-group-text">$</span>
+                                <input type="number" class="form-control" min="5" step="5" value="25" required />
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-control" placeholder="Your full name" required />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" placeholder="you@example.com" required />
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Proceed</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 1080">
+        <div id="actionToast" class="toast align-items-center text-bg-success border-0" role="status" aria-live="polite" aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body">Thank you! We will contact you shortly.</div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+
+	<!-- Footer -->
+	<footer id="contact" class="pt-5 bg-dark text-light">
+		<div class="container">
+			<div class="row g-4">
+				<div class="col-md-6 col-lg-4">
+                    <h5 class="fw-semibold">Together Home for Children</h5>
+					<p class="text-secondary mb-1">123 Kindness Street, Hope City</p>
+					<p class="text-secondary mb-1">Phone: +1 (555) 123-4567</p>
+					<p class="text-secondary mb-3">Email: hello@sunrisehome.org</p>
+					<div class="d-flex gap-3">
+						<a class="link-light link-opacity-75-hover" href="#">Facebook</a>
+						<a class="link-light link-opacity-75-hover" href="#">Instagram</a>
+						<a class="link-light link-opacity-75-hover" href="#">Twitter</a>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<h6 class="fw-semibold">Quick Links</h6>
+					<ul class="list-unstyled">
+						<li><a class="link-light link-opacity-75-hover" href="#home">Home</a></li>
+						<li><a class="link-light link-opacity-75-hover" href="#mission">About / Mission</a></li>
+						<li><a class="link-light link-opacity-75-hover" href="#activities">Activities</a></li>
+						<li><a class="link-light link-opacity-75-hover" href="#donate">Donation Tiers</a></li>
+						<li><a class="link-light link-opacity-75-hover" href="#testimonials">Testimonials</a></li>
+						<li><a class="link-light link-opacity-75-hover" href="#faq">FAQ</a></li>
+						<li><a class="link-light link-opacity-75-hover" href="#help">How to Help</a></li>
+					</ul>
+				</div>
+				<div class="col-md-12 col-lg-4">
+					<h6 class="fw-semibold">Stay Updated</h6>
+					<form class="d-flex gap-2 mt-2" action="#" method="post">
+						<input class="form-control" type="email" placeholder="Your email" required />
+						<button class="btn btn-warning" type="submit">Subscribe</button>
+					</form>
+				</div>
+			</div>
+			<hr class="border-secondary mt-4 mb-3" />
+			<div class="d-flex flex-wrap justify-content-between align-items-center pb-4">
+                <small class="text-secondary mb-0">© <span id="year"></span> Together Home for Children – All Rights Reserved</small>
+				<a href="#home" class="btn btn-sm btn-outline-light">Back to Top</a>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+		// Smoothly close navbar on link click (mobile)
+		const navLinks = document.querySelectorAll('.navbar .nav-link');
+		navLinks.forEach(function (link) {
+			link.addEventListener('click', function () {
+				const navbarToggler = document.querySelector('.navbar-toggler');
+				const navbarCollapse = document.getElementById('mainNavbar');
+				if (getComputedStyle(navbarToggler).display !== 'none' && navbarCollapse.classList.contains('show')) {
+					navbarToggler.click();
+				}
+			});
+		});
+
+		// Dynamic year
+		document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Navbar style on scroll
+        const navbar = document.getElementById('navbar');
+        function updateNavbarShadow() {
+            if (window.scrollY > 8) {
+                navbar.classList.add('shadow-sm','scrolled');
+            } else {
+                navbar.classList.remove('shadow-sm','scrolled');
+            }
+        }
+        updateNavbarShadow();
+        window.addEventListener('scroll', updateNavbarShadow);
+
+        // Bootstrap ScrollSpy refresh
+        const scrollSpy = bootstrap.ScrollSpy.getOrCreateInstance(document.body);
+        scrollSpy.refresh();
+
+        // Animated counters
+        const counterElements = document.querySelectorAll('[data-count]');
+        const counterObserver = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    const el = entry.target;
+                    const target = parseInt(el.getAttribute('data-count'), 10);
+                    let current = 0;
+                    const duration = 1200;
+                    const start = performance.now();
+                    function step(ts) {
+                        const progress = Math.min((ts - start) / duration, 1);
+                        current = Math.floor(progress * target);
+                        el.textContent = target >= 250 ? current + '+' : current;
+                        if (progress < 1) requestAnimationFrame(step);
+                    }
+                    requestAnimationFrame(step);
+                    counterObserver.unobserve(el);
+                }
+            });
+        },{ threshold: 0.5 });
+        counterElements.forEach((el) => counterObserver.observe(el));
+
+        // Form submit -> toast
+        const contactForm = document.getElementById('contactForm');
+        const donationForm = document.getElementById('donationForm');
+        const toastEl = document.getElementById('actionToast');
+        const toast = new bootstrap.Toast(toastEl, { delay: 2500 });
+        function handleSubmit(e){
+            e.preventDefault();
+            toast.show();
+            const openModal = document.querySelector('.modal.show');
+            if (openModal) bootstrap.Modal.getInstance(openModal).hide();
+            (e.target).reset();
+        }
+        if (contactForm) contactForm.addEventListener('submit', handleSubmit);
+        if (donationForm) donationForm.addEventListener('submit', handleSubmit);
+	</script>
+</body>
+</html>
+

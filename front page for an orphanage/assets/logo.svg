@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="Together Home for Children logo">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0d6efd"/>
+      <stop offset="100%" stop-color="#20c997"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect x="6" y="6" width="116" height="116" rx="28" ry="28" fill="url(#bg)"/>
+  <!-- Minimal home + heart glyph -->
+  <g fill="#ffffff">
+    <!-- Roof -->
+    <path d="M36 72 L64 50 L92 72" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- House body -->
+    <rect x="40" y="70" width="48" height="34" rx="8" ry="8"/>
+    <!-- Heart cutout -->
+    <path d="M64 80
+             c-5 -6 -15 -6 -20 0
+             c-4 5 -3 13 2 18
+             c6 6 18 12 18 12
+             s12 -6 18 -12
+             c5 -5 6 -13 2 -18
+             c-5 -6 -15 -6 -20 0z" fill="#ff6b6b"/>
+  </g>
+</svg>
+
